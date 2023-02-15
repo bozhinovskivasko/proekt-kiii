@@ -2,7 +2,7 @@ version: '2'
 
 services:
   app:
-    image: 'springboot-postgresql:latest'
+    image: 'vaskob/springboot-postgresql:latest'
     ports:
       - "8082:8082"
     build:
